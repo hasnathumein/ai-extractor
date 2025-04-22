@@ -1,0 +1,9 @@
+session_logs.txt
+__pycache__/
+*.pyc
+uploads/
+emails/
+documents/
+session_logs.txt
+venv/
+.env
