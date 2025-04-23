@@ -46,6 +46,9 @@ def index():
             else:
                 extracted_text = "❌ Unsupported file format."
     return render_template('index.html', extracted_text=extracted_text)
+@app.route('/api-docs')
+def api_docs():
+    return render_template('api-docs.html')
 
 @app.route('/save_email_and_download', methods=['POST'])
 def save_email_and_download():
